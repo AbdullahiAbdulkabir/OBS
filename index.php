@@ -197,7 +197,7 @@ switch (ENVIRONMENT)
 	}
 
 	if (($_temp = realpath($system_path)) !== FALSE)
-	{
+	{I
 		$system_path = $_temp.DIRECTORY_SEPARATOR;
 	}
 	else
